@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#" data-section="home">Home</a></li>
+                <li><a href="#" data-section="about">About</a></li>
+                <li><a href="#" data-section="certificates">Certificates</a></li>
+                <li><a href="#" data-section="education">Education</a></li>
+                <li><a href="#" data-section="internship">Internship</a></li>
+                <li><a href="#" data-section="projects">Projects</a></li>
+                <li><a href="#" data-section="contact">Contact</a></li>
+                <li><button id="theme-toggle">Dark/Light Mode</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="section">
+            <div class="intro">
+                <h1>SALONI SUNIL BHOITE</h1>
+                <p>Welcome to my portfolio</p>
+                <a href="#" class="cta-button" data-section="about">Explore</a>
+            </div>
+        </section>
+
+        <section id="about" class="section" style="display: none;">
+            <h2>About Me</h2>
+            <p>My name is Saloni Sunil Bhoite now i am pursuing MCA from Ajeenkya D Y Patil University Pune,I am Full Stack Developer</p>
+        </section>
+
+        <section id="certificates" class="section" style="display: none;">
+            <h2>Certificates</h2>
+            <div class="certificates">
+                <h3>Front End Development-HTML(Great Learning)</h3>
+                <h3>Front End Development-CSS(Great Learning)</h3>
+                <h3>Data Structure and Algorithms in Java for Intermediate Level(Great Learning)</h3>
+            </div>
+            </section>
+            <section id="education" class="section" style="display: none;">
+            <h2>Education</h2>
+            <div class="education">
+                <h3>Post Graduation:MCA(Ajeenkya D Y Patil University Pune)2023-2025</h3>
+                <h3>Graduation:BCS(Savitribai Phule Pune University)2019-2022,82%</h3>
+                <h3>12th:(S.V.Union College Pune)2018-2019,62.77%</h3>
+                <h3>10th:(Narayanrao Genba Moze School Pune)2016-2017,82.20%</h3>
+            </div>
+            </section>
+            <section id="internship" class="section" style="display: none;">
+            <h2>Internship</h2>
+            <div class="internship">
+            <h3>Data Science internship from Celebal Technologies</h3>
+            </div>
+        </section>
+
+        <section id="projects" class="section" style="display: none;">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Laundry Management System</h3>
+                <p>Project description...Language:HTML,CSS,JAVASCRIPT,JAVA
+                this is one website for laundry shopkeeper for storing customer information and details.it is also give print of bill to customer of their cloths.
+                </p>
+                <h3>Portfolio Website</h3>
+                <p>Project description...Language :HTML,CSS,JAVASCRIPT
+                    This is a portfolio website in that all information is about me my education myselfand my projects and all.
+                </p>
+                <h3>Nots and Password Manager</h3>
+                <p>Project description...Language:JAVA
+                    This is a simple nots and password manager in that it is store your notes and password in your local storage and also give search option to find your note.
+                 </p>
+            </div>
+        </section>
+
+        <section id="contact" class="section" style="display: none;">
+            <h2>Contact</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Saloni Sunil Bhoite. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
